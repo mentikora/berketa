@@ -5,8 +5,6 @@
   <title>Berketa</title>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/application.css">
-  <script src="js/jquery-2.2.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
   <!-- header -->
@@ -52,14 +50,18 @@
   <!-- mainwrapper -->
   <section id="wrapper">
 
-    <!-- slider -->
-    <section class="slider align_center">
+    <!-- services -->
+    <section class="services align_center">
       <h2 class="h2_style">
         WELCOME TO POLYmer Extrusion
       </h2>
-      <p>
-        here be the slider
-      </p>
+      <div class="services_slider">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
     </section>
     
     <!-- advantages -->
@@ -80,7 +82,7 @@
         <div class="col-md-4">
           <img src="img/adv_2.png" alt="solution" class="img-responsive">
           <h3 class="h3_title">
-            Високоякісне обладнання
+            Реалізація нестандартних рішень
           </h3>
           <p class="text_style">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laboriosam numquam voluptas sapiente 
@@ -89,7 +91,7 @@
         <div class="col-md-4">
           <img src="img/adv_3.png" alt="individual" class="img-responsive">
           <h3 class="h3_title">
-            Високоякісне обладнання
+            Індивідуальний підхід
           </h3>
           <p class="text_style">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laboriosam numquam voluptas sapiente 
@@ -110,43 +112,52 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem molestias saepe alias beatae, animi cum sint vitae! Dicta fuga distinctio
         </p>
       </div>
-      <div class="col-md-4">
-        <div class="item">
-          <div class="item_data">11.11.1111</div>
-          <img src="img/news_test_img.jpg" alt="news_img_alt" class="img-responsive">
-          <h3 class="h3_title">
-            Високоякісне обладнання
-          </h3>
-          <p class="text_style">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laboriosam numquam voluptas sapiente 
-          </p>
-          <a href="" class="detailed">detailed</a>
+      <div class="items_wrapper">
+        <div class="col-md-4">
+          <div class="item">
+            <div class="item_data">april 11, 2016</div>
+            <img src="img/news_test_img.jpg" alt="news_img_alt" class="img-responsive">
+            <div class="description">
+              <h3 class="h3_title">
+                Високоякісне обладнання
+              </h3>
+              <p class="text_style">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laboriosam numquam voluptas sapiente 
+              </p>
+              <a href="javascript: void(0);" class="detailed pull-right">more details +</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="item">
-          <div class="item_data">11.11.1111</div>
-          <img src="img/news_test_img.jpg" alt="news_img_alt" class="img-responsive">
-          <h3 class="h3_title">
-            Високоякісне обладнання
-          </h3>
-          <p class="text_style">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laboriosam numquam voluptas sapiente 
-          </p>
-          <a href="" class="detailed">detailed</a>
+        <div class="col-md-4">
+          <div class="item">
+            <div class="item_data">april 11, 2016</div>
+            <img src="img/news_test_img.jpg" alt="news_img_alt" class="img-responsive">
+            <div class="description">
+              <h3 class="h3_title">
+                Високоякісне обладнання
+              </h3>
+              <p class="text_style">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laboriosam numquam voluptas sapiente 
+              </p>
+              <a href="javascript: void(0);" class="detailed pull-right">more details +</a>
+            </div>
+            
+          </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="item">
-          <div class="item_data">11.11.1111</div>
-          <img src="img/news_test_img.jpg" alt="news_img_alt" class="img-responsive">
-          <h3 class="h3_title">
-            Високоякісне обладнання
-          </h3>
-          <p class="text_style">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laboriosam numquam voluptas sapiente 
-          </p>
-          <a href="" class="detailed">detailed</a>
+        <div class="col-md-4">
+          <div class="item">
+            <div class="item_data">april 11, 2016</div>
+            <img src="img/news_test_img.jpg" alt="news_img_alt" class="img-responsive">
+            <div class="description">
+              <h3 class="h3_title">
+                Високоякісне обладнання
+              </h3>
+              <p class="text_style">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laboriosam numquam voluptas sapiente 
+              </p>
+              <a href="javascript: void(0);" class="detailed pull-right">more details +</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -206,10 +217,39 @@
     </div>
   </footer>
 
-  <!--  -->
+  <!-- JAVASCRIPT -->
+  <script src="js/jquery-2.2.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!-- slider -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!-- main javascript -->
+  <script src="js/application.js"></script>
+
+  <!-- menu -->
   <script src="js/classie.js"></script>
   <script src="js/clipboard.min.js"></script>
+
   <script>
+    // initialize slider
+    // use only on mainpage!
+    $(document).ready(function(){
+      $('.services_slider').owlCarousel({
+        items: 5,
+        loop: true,
+        navRewind: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        autoplaySpeed: 2000
+      });
+    });
+  </script>
+
+  <script>
+  // menu script
   (function() {
     [].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
       var menuItems = menu.querySelectorAll('.menu__link'),

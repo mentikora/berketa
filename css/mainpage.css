@@ -1,24 +1,78 @@
+.services,
+.advantages,
+.news,
+.seo{
+	/* + footer in footer.css*/
+	padding-top: 95px;
+} 
+
 /* advantages section */
-.advantages{ background-color: #4183d7; }
+.advantages{ 
+	/* background-color: #4183d7; */ 
+	height: 568px;
+
+	background: url('images/advantages_bg.jpg') no-repeat 0 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.advantages .h2_style{
+	margin-bottom: 95px;
+}
+.advantages .h3_title{
+	margin-bottom: 20px;
+
+	font-size: 21px;
+	color: #ffffff;
+}
 .advantages img{
 	display: inline-block;
+	margin-bottom: 15px;
+}
+.advantages .text_style{
+	text-align: left;
 }
 .advantages *{ color: #fff; }
 
 /* news section */
 .news{}
+.news .items_wrapper{
+	margin-top: 90px;
+}
 .news .item{
 	position: relative;
 	border-left: 4px solid #4183d7;
 }
+.news .description{
+	padding: 21px 18px;
+}
 .news .item_data{
 	position: absolute;
 	z-index: 2;
-	top: 0;
-	right: 0;
+	top: 31px;
+	right: 1px;
+	padding: 12px 13px;
 	
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
 	background-color: #4183d7;
 }
 .news img{
 	height: 300px;
+}
+.news .h3_title{
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+.news .detailed {
+	font-size: 14px;
+	color: #fa7600;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/* */
+.services_slider > div{
+	height: 150px;
 }
