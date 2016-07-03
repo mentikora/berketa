@@ -1,0 +1,24 @@
+/* advantages section */
+.advantages{ background-color: #4183d7; }
+.advantages img{
+	display: inline-block;
+}
+.advantages *{ color: #fff; }
+
+/* news section */
+.news{}
+.news .item{
+	position: relative;
+	border-left: 4px solid #4183d7;
+}
+.news .item_data{
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	
+	background-color: #4183d7;
+}
+.news img{
+	height: 300px;
+}
