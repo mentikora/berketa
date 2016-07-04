@@ -27,9 +27,6 @@
 .services_slider .owl-item{
   height: 250px;
 
-  /*border-left: 2px solid #4183d7;
-  border-right: 2px solid #4183d7;
-  border-bottom: 2px solid #4183d7;*/
   opacity: .35;
 
   background: url('images/slider_item_bg.png') no-repeat 50% bottom;
@@ -50,12 +47,21 @@
 
 /* advantages section */
 .advantages{ 
-  /* background-color: #4183d7; */ 
   height: 568px;
 
   background: url('images/advantages_bg.jpg') no-repeat 0 0;
   -webkit-background-size: cover;
   background-size: cover;
+}
+@media (max-width: 768px){
+	.advantages{
+		height: auto;
+		padding-bottom: 95px;
+		background: #4183d7;
+	}
+	.advantages .item{
+		margin-bottom: 50px;
+	}
 }
 .advantages .h2_style{
   margin-bottom: 95px;
@@ -83,6 +89,7 @@
 .news .item{
   position: relative;
   border-left: 4px solid #4183d7;
+  margin-bottom: 15px;
 }
 .news .description{
   padding: 21px 18px;
@@ -117,4 +124,5 @@
 /* seo section */
 .seo{
   padding-bottom: 95px;
+  padding-top: 80px;
 }

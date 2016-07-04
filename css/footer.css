@@ -2,6 +2,17 @@
 	padding-top: 95px;
 	background-color: #303030;
 }
+@media (max-width: 768px){
+	#footer{
+		text-align: center;
+	}
+	#footer .container div{
+		margin-bottom: 25px;
+	}
+	#footer .footer_copy{
+		margin-top: 70px !important;
+	}
+}
 #footer .h3_style{
 	margin-bottom: 25px;
 	color: #4183d7;
