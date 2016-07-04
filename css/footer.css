@@ -22,3 +22,13 @@
 	line-height: 16px;
 	color: #fff;
 }
+	#footer .footer_copy span{ 
+		display: block;
+		line-height: 35px;
+	}
+	#footer .footer_copy a{
+		display: inline-block;
+		margin-left: 5px;
+		float: right;
+		height: 35px;
+	}

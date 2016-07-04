@@ -114,8 +114,9 @@
   user-select: none;
 }
 .owl-carousel .owl-item img {
-  display: block;
-  width: 100%;
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 auto 10px;
   -webkit-transform-style: preserve-3d;
 }
 .owl-carousel.owl-text-select-on .owl-item {

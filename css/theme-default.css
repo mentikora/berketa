@@ -89,6 +89,10 @@ body{
 }
 .h1_style, 
 .h2_style{ font-size: 35px; }
+.h2_style{ 
+	margin-bottom: 15px;
+	color: #4183d7;
+}
 .h3_style{ font-size: 24px; }
 .text_style{
 	font-size: 14px;
