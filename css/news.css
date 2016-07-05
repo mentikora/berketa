@@ -2,5 +2,24 @@
   padding: 55px 0;
 }
 
-.news_items_wrapper{}
-.news_items_wrapper .item{}
+.news_items_wrapper{
+	padding-bottom: 60px;
+}
+.news_items_wrapper .item{
+	background-color: #f8f8f8;
+	margin-top: 30px;
+}
+	.news_items_wrapper .item .h3_title{
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	.news_items_wrapper .item:first-child{
+		margin-top: 0;
+	}
+	.news_items_wrapper .item .ck_editor_img{
+		margin: 0 !important;
+	}
+	.news_items_wrapper .item .detailed{
+		margin-top: 25px;
+		margin-right: 20px;
+	}

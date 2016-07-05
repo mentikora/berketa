@@ -149,6 +149,15 @@ body{
 }
   .ck_editor_img img{
     float: left;
+
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+  }
+  @media (max-width: 768px){
+    .ck_editor_img{
+      margin: 0 10px 25px 10px !important;
+    }
   }
 .ck_editor_img_news{
   position: relative;
