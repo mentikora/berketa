@@ -141,10 +141,17 @@ body{
   max-width: 100%;
   height: auto;
 }
-.ck_editor img.left{
+.ck_editor_img{
   float: left;
   display: inline-block;
   margin: 0 25px 25px 0;
+}
+  .ck_editor_img img{
+    float: left;
+  }
+.ck_editor_img_news{
+  position: relative;
+  border-left: 4px solid #4183d7;
 }
 .ck_editor a{
   color: #fa7600;

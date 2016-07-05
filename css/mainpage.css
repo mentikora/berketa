@@ -99,7 +99,8 @@
 .news .description{
   padding: 21px 18px;
 }
-.news .item_data{
+/* using on mainpage and news, global class */
+.item_date{
   position: absolute;
   z-index: 2;
   top: 31px;
