@@ -12,6 +12,16 @@
 	#footer .footer_copy{
 		margin-top: 70px !important;
 	}
+	#footer .footer_copy span{
+		float: none !important;
+		display: block;
+		text-align: center;
+	}
+	#footer .footer_copy a{
+		float: none !important;
+		position: relative;
+		top: 10px;
+	}
 }
 #footer .h3_style{
 	margin-bottom: 25px;
