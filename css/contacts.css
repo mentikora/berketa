@@ -1,0 +1,17 @@
+/* gmap */
+#gmap{
+  margin-top: 15px; 
+  height: 370px; 
+
+  background-color: #000; 
+  color: #fff
+}
+@media (max-width: 768px){
+  .contacts_content .left .col-sm-6{
+    margin-bottom: 25px;
+  }
+  #gmap{
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+}
