@@ -122,7 +122,8 @@ body{
     color: #fa7600;
   }
   .breadcrumb .active,
-  .breadcrumb .active:before{
+  .breadcrumb .active:before,
+  .breadcrumb>li+li:before{
     color: #303030;
     font-size: 14px;
   }
