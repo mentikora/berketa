@@ -24,7 +24,11 @@
   color: #4183d7;
   font-weight: 600;
 }
-.services_slider .owl-item{
+.services_slider .owl-item,
+.services_items .item{
+  /* 
+    .services_items .item - services page 
+  */
   height: 250px;
 
   opacity: .35;

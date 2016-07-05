@@ -1,0 +1,31 @@
+.services_items div{
+  margin-bottom: 25px;
+  height: 250px;
+}
+.services_items .item {
+  /* restyle&rewrite some styles from mainpage.css*/
+  display: block;
+  height: 100%;
+  opacity: 1;
+}
+  .services_items .item:hover{
+    text-decoration: none;
+  }
+.services_items .item h3{
+  padding: 0 15px;
+  color: #4183d7;
+}
+.services_items img{
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 auto 10px;
+}
+
+@media (max-width: 768px){
+  .services_items .item{
+    background: none;
+    border-left: 3px solid #4183d7;
+    border-bottom: 3px solid #4183d7;
+    border-right: 3px solid #4183d7;
+  }
+}
