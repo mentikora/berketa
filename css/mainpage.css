@@ -10,6 +10,11 @@
 .services_slider{
   margin: 95px 0;
 }
+@media(max-width: 768px){
+  .services_slider{
+    margin: 25px 0 !important;
+  }
+}
 .services_slider a{
   display: block;
   width: 100%;
@@ -80,6 +85,7 @@
 .advantages img{
   display: inline-block;
   margin-bottom: 15px;
+  height: 147px;
 }
 .advantages .text_style{
   text-align: left;
@@ -97,7 +103,8 @@
   margin-bottom: 15px;
 }
 .news .description{
-  padding: 21px 18px;
+  padding: 21px 18px 35px;
+  background: #f8f8f8;
 }
 /* using on mainpage and news, global class */
   .item_date{
@@ -118,10 +125,13 @@
     color: #fa7600;
     font-weight: 700;
     text-transform: uppercase;
-
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    
     -webkit-backface-visibility:hidden;
     backface-visibility:hidden;
-    position: relative;
+    
     transition: 0.5s color ease;
     text-decoration:none;
   }
@@ -148,6 +158,12 @@
 /*  */
 .news img{
   height: 300px;
+}
+@media(max-width: 768px){
+  .news img{
+    height: auto !important;
+    width: 100%;
+  } 
 }
 .news .h3_title{
   margin-bottom: 10px;
