@@ -38,6 +38,56 @@ table {
 }
 p{ margin: 0; }
 
+/* icomoon basic icon set */
+@font-face {
+  font-family: 'icomoon';
+  src:    url('fonts/icomoon.eot?nd1f1n');
+  src:    url('fonts/icomoon.eot?nd1f1n#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?nd1f1n') format('truetype'),
+      url('fonts/icomoon.woff?nd1f1n') format('woff'),
+      url('fonts/icomoon.svg?nd1f1n#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail:before {
+    content: "\ea83";
+}
+.icon-google-plus:before {
+    content: "\ea8b";
+}
+.icon-facebook:before {
+    content: "\ea90";
+}
+.icon-instagram:before {
+    content: "\ea92";
+}
+.icon-whatsapp:before {
+    content: "\ea93";
+}
+.icon-twitter:before {
+    content: "\ea96";
+}
+.icon-youtube2:before {
+    content: "\ea9e";
+}
+
+
+
 /* clearfix */
 .clearfix:after {
   visibility: hidden;

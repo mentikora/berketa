@@ -1,5 +1,5 @@
 /* gmap */
-#gmap{
+.gmap{
   margin-top: 15px; 
   height: 370px; 
 
@@ -10,30 +10,49 @@
   .contacts_content .left .col-sm-6{
     margin-bottom: 25px;
   }
-  #gmap{
+  .gmap{
     margin-top: 0;
     margin-bottom: 25px;
   }
 }
 
-.message_confirm{
-  padding: 30px;
-
-  background-color: #4183d7;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  margin-bottom: 15px;
-
+form{
   position: relative;
 }
+
+.message_confirm{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+
+  height: 433px;
+  position: relative;
+  width: 100%;
+
+  border: 3px solid #fb7600;
+  background-color: #fff;
+  color: #fb7600;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 600;  
+}
+  .message_confirm.error i{
+    color: #d54343;
+  }
+  .message_confirm i{
+    font-size: 70px;
+    color: #4183d7;
+    margin-bottom: 30px;
+  }
   .message_confirm .close_confirm{
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 0px;
+    right: 5px;
 
     cursor: pointer;
-    color: #fff;
+    color: #fb7600;
     font-size: 30px;
 
     -webkit-transform: rotate(45deg);
