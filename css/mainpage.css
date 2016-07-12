@@ -71,6 +71,9 @@
 	.advantages .item{
 		margin-bottom: 50px;
 	}
+  .advantages .text_style{
+    text-align: center !important;
+  }
 }
 .advantages .h2_style{
   margin-bottom: 95px;
