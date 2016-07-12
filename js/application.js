@@ -6,4 +6,9 @@ $(document).ready(function() {
 		$('#nav_mobile').toggleClass('open fadeInDown');
 	});
 
+	// message_confirm
+	$('.close_confirm').on('click', function(){
+    $(this).parent().fadeOut();
+  });
+
 });
