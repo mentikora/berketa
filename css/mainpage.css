@@ -56,7 +56,9 @@
 
 /* advantages section */
 .advantages{ 
-  height: 568px;
+  min-height: 568px;
+  /* add padding for responsive view*/
+  padding-bottom: 15px;
 
   background: url('images/advantages_bg.jpg') no-repeat 0 0;
   -webkit-background-size: cover;
@@ -76,7 +78,7 @@
   }
 }
 .advantages .h2_style{
-  margin-bottom: 95px;
+  margin-bottom: 60px;
 }
 .advantages .h3_title{
   margin-bottom: 20px;
