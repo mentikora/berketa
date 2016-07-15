@@ -190,6 +190,7 @@ body{
   font-size: 14px;
   line-height: 23px;
   color: #303030;
+  list-style: inherit !important;
 }
 .ck_editor img{
   /* add img-responsive for all ck_editor images */
